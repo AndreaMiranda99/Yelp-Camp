@@ -1,0 +1,24 @@
+Creating the New Campgrounds 
+-- Setup new campground POST route
+-- Add in body-parser
+-- Setup route to show form 
+-- Add basic unstyled form 
+
+Style the campgrounds page 
+-- Add a better header/title
+-- Make campgrounds display grid 
+
+Styling Nav and Forms 
+-- Add a navbar to all templates
+-- Style the new campground form 
+
+Databases
+*   mongod
+*   mongo
+*   help 
+*   show abs
+*   use
+*   insert 
+*   find 
+*   update
+*   remove

@@ -1,0 +1,24 @@
+<%- include ('../partials/header'); %> 
+
+<h1>Create a new Comment for <%= campground.name %></h1>
+<div class="container" style="width: 40%; padding: 25px auto;">
+    <form action="/campgrounds/<%= campground._id %>/comments" method="POST">
+    <!-- <div class="form-group row">
+        <p class="col-sm-3"> User Name</p>
+        <input class="form-control col-sm-9" type="text" placeholder="name" name = "comment[username]">
+    </div> -->
+    <div class="form-group row">
+        <p class="col-sm-3"> Comment</p>
+        <input class="form-control col-sm-9" type="text" placeholder="Comment" name = "comment[comment]">
+    </div>
+    <div class="form-group ">
+        <button class="btn btn-secondary">Submit !</button>
+    </div>
+</div>
+
+    
+
+    
+</form>
+
+<%- include ('../partials/footer'); %> 
